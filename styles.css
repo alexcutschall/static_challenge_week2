@@ -1,11 +1,37 @@
+body {
+  margin: 0px;
+}
+
+button {
+  border: 2px solid white;
+  background-color: #3DDC97;
+  height: 50px;
+  width: 100px;
+}
+img {
+  height: 100vh;
+  width: 400px;
+  margin: 0px;
+}
+
 .picture-boxes {
-  border: 1px solid;
-  height: 200px;
-  width: 200px;
+  height:165px;
+  width: 165px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
 }
 
 .picture-display {
   display: flex;
-  justify-content: center;
-  flex-direction: vertical;
+  flex-wrap: wrap;
 }
+
+.header-box {
+  text-align: center;
+}
+
+.climber {
+  display: inline-block;
+  float: right;
